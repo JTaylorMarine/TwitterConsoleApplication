@@ -52,31 +52,6 @@ namespace Twitter_Console
 
             Console.ReadLine();
 
-            /*
-            string[] tweets = new string[4];
-            // Loop 1
-            for (int i = 0; i < tweets.Length; i++)
-            {
-                Console.Write("Enter tweet #{0}: ", i + 1);
-                tweets[i] = Console.ReadLine();
-            }
-
-
-            Console.WriteLine("Tweets posted successfully.");
-            Console.WriteLine();
-
-            Console.WriteLine("Your tweets are: ");
-            //loop 2
-            for (int i = 0; i < tweets.Length; i++)
-            {
-                if (tweets[i].Length > 140)
-                    Console.WriteLine("Your tweet is longer than 140 characters.");
-                else
-                Console.WriteLine("Your tweet #{0} is '{1}' ", i + 1, tweets[i]);
-            }
-
-            Console.ReadLine();
-            */
         }
     }
 }
